@@ -6,7 +6,6 @@
     max-width: 1200px;
     margin: 0 auto;
     align-items: start;
-
 }
 
 .responsive {
@@ -55,7 +54,6 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 1000;
 }
-
 
 nav a {
     color: #fff;
@@ -128,7 +126,6 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 1000;
 }
-
 
 header .logo {
     font-size: 1.8rem;
@@ -243,4 +240,48 @@ strong {
 .skills-card p {
     font-size: 20px;
     margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .container img.responsive {
+        max-width: 250px; 
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    .left {
+        text-align: center !important;
+        font-size: 16px;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 10px 20px;
+        align-items: center;
+        top: 100px; 
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
 }
