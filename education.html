@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <title> PJ CUEVAS PORTFOLIO </title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/png" href="assets/white logo.png">
+    <meta name="viewport" content="width=device-width, initial scale-1.0">
+</head>
+
+<body>
+    <header>
+        <img src="assets/white logo.png" style="display:block; margin:auto; width: 150px"> </header>
+    <main>
+        <nav>
+            <ul>
+                <li class="padding">
+                    <a href="file:///B:/PORTFOLIO/index.html">Artist</a>
+                <li class="padding">
+                    <a href="file:///B:/PORTFOLIO/education.html">Education</a>
+                </li>
+                <li class="padding">
+                    <a href="file:///B:/PORTFOLIO/artworks.html">Artworks</a>
+                </li>
+                <li class="padding">
+                    <a href="file:///B:/PORTFOLIO/skills.html">Skills</a>
+                </li>
+            </ul>
+        </nav>
+
+        <br>
+        <div class="container">
+            <div>
+                <img src="assets/grad photo.jpg" class="responsive" width="450px" height="450px">
+            </div>
+            <div class="left">
+                <br><br><br><br><br><br>
+                <strong>EDUCATION</strong> <br><br>
+                I took the strand, <b>Arts and Design</b> during Senior Highschool at <b>University of Perpetual Help
+                    System-Laguna</b>.
+                This is where I encountered significant<br>art-inclined subjects such as <i>Elements and Principles of
+                    Art,
+                    Performing Arts Production, and Apprenticeship</i> and <i>Exploration of Different Art Fields.</i>
+                <br><br>
+                For college, I took the course <b>Bachelor of Multimedia Arts (BMMA)</b> at <b>STI College Santa
+                    Rosa</b> where
+                I tackled subjects such as <i>Introduction to Multimedia Arts,
+                    Digital Photography, and Typography and Layout</i>. These courses provide me with a solid
+                understanding of creative principles and industry workflows,
+                granting <br>me early familiarity with the field I aim to enter after graduating. They shape my
+                artistic foundation and equip me with the skills,
+                insights, and discipline that will <br>guide me toward a successful career in the creative industry.
+            </div>
+        </div>
+
+        <br><br>
+        <section class="gallery">
+            <span class="font2">These are some of my works during Senior Highschool featuring traditional art,
+                photography, and crocheted pieces. </span>
+            <br><br>
+            <div class="gallery-wrapper">
+                <div class="gallery-row">
+                    <img src="assets/artwork1.jpg" onclick="openModal(this.src)">
+                    <img src="assets/artwork2.jpg" onclick="openModal(this.src)">
+                    <img src="assets/artwork3.png" onclick="openModal(this.src)">
+                    <img src="assets/artwork4.jpg" onclick="openModal(this.src)">
+                    <img src="assets/artwork5.jpg" onclick="openModal(this.src)">
+                    <img src="assets/artwork6.jpg" onclick="openModal(this.src)">
+                    <img src="assets/artwork7.jpg" onclick="openModal(this.src)">
+                </div>
+            </div>
+            <div id="imgModal" class="modal" onclick="closeModal()">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modalImg" onclick="event.stopPropagation()">
+            </div>
+            <script src="scripts/script.js"></script>
+        </section>
+    </main>
+    <br><br>
+    <footer>
+        <h5>Check out the artist's social media accounts below.</h5>
+        <a href="https://www.facebook.com/artby.ayi"><img src="assets/fb logo.png" width="50px" height="50px"></a>
+        <a href="https://www.instagram.com/artby.ayi"><img src="assets/ig logo.png" width="50px" height="50px"></a>
+    </footer>
+</body>
+
+</html>
